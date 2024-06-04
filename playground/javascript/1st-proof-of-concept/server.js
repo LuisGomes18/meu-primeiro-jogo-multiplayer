@@ -111,8 +111,8 @@ io.on('connection', function(socket){
 
 });
 
-webServer.listen(3000, function(){
-  console.log('> Server listening on port:',3000)
+webServer.listen(3010, function(){ /* Muda para 3010 por porta estar sem uso no meu pc */
+  console.log('> Server listening on port:',3010) /* Porta 3000 porta original */
 });
 
 function createGame() {
